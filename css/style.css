@@ -5,7 +5,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 .navbar{
     font-family: 'Press Start 2P', cursive;
     background: #918d8d;
@@ -13,25 +12,21 @@
     color: white;
     width: 100%;
 }
-
 label.logo{
     font-size: 35px ;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
 }
-
 nav ul{
     float: right;
     margin-right: 20px;
 }
-
 nav ul li {
     display: inline-block; 
     line-height: 80px;
     margin: 0 5px;
 }
-
 nav ul li a{
     color: white;
     font-size: 17px;
@@ -39,7 +34,6 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
-
 a.lista1,a:hover{
     background: #8A90A5;
     transition: .5s;
@@ -71,7 +65,6 @@ nav ul li a{
     .checkbtn{
         display: block;
     }
-
     ul{
         position: fixed;
         width: 100%;
@@ -82,9 +75,10 @@ nav ul li a{
         text-align: center;
         transition: all .5s;
     }
-
     nav ul li{
         display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
     nav ul li a{
         font-size: 20px;
@@ -96,5 +90,11 @@ nav ul li a{
     
     #check:checked ~ ul{
         left: 0;
+    }
+   
+    img{
+        background: url(/imagenes/minecraft.jpg) no-repeat;
+        background-size: cover;
+        height: calc(100vh- 80px);
     }
 }
