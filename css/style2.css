@@ -1,0 +1,40 @@
+#contentItemsCarrusel{
+    border: 5px solid black;
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    
+    height: 100%;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjetaCarrusel-1{
+    background-color: rgb(184, 121, 121);
+}
+
+#tarjetaCarrusel-2{
+    background-color: rgb(193, 173, 131);
+}
+
+#tarjetaCarrusel-3{
+    background-color: rgb(142, 203, 140);
+}

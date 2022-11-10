@@ -92,9 +92,5 @@ nav ul li a{
         left: 0;
     }
    
-    img{
-        background: url(/imagenes/minecraft.jpg) no-repeat;
-        background-size: cover;
-        height: calc(100vh- 80px);
-    }
+   
 }
