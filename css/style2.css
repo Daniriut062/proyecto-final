@@ -1,22 +1,23 @@
-#contentItemsCarrusel{
+#contentItemsCarrusel {
     height: 400px;
     overflow: hidden;
     width: 1000px;
     padding-left: 10px;
     margin-left: 30px;
+   
 }
 
-.itemCarrusel{
+.itemCarrusel {
     height: 100%;
     position: relative;
 }
 
-.tarjetaCarrusel{
+.tarjetaCarrusel {
     width: 100%;
     height: 100%;
 }
 
-.flechasCarrusel{
+.flechasCarrusel {
     position: absolute;
     top: 0;
     height: 100%;
@@ -27,56 +28,76 @@
     padding: 20px;
 }
 
-#tarjetaCarrusel-1{
+#tarjetaCarrusel-1 {
     background-color: rgb(184, 121, 121);
-    
+
 }
 
-#tarjetaCarrusel-2{
+#tarjetaCarrusel-2 {
     background-color: rgb(193, 173, 131);
 }
 
-#tarjetaCarrusel-3{
+#tarjetaCarrusel-3 {
     background-color: rgb(142, 203, 140);
 }
 
-a{
+a {
     text-decoration: none;
-    
+
 }
 
 
 
-#contentPuntos > a{
-    font-size: 1.5em ;
+#contentPuntos>a {
+    font-size: 1.5em;
     font-style: none;
     color: green;
-    
+
 }
 
-i{
+i {
     font-style: none;
     color: black;
     font-size: 25px;
 }
 
-.imagenCarru{
+.imagenCarru {
     width: 100%;
     height: 100%;
-    
-    
+
+
 }
 
-.block{
+.block {
     width: 400px;
     height: 400px;
     padding-left: 15px;
+    padding-bottom: 40px;
 }
 
-.carrusel1{
-  display: flex;
-  padding-top: 10px;
-  
+.carrusel1 {
+    display: flex;
+    padding-top: 10px;
+
 }
 
+.titulo {
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
 
+body{
+    background-image: url(/imagenes/birch.png);
+    background-size: 90px;
+}
+
+.Parrafo1{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Azeret Mono', monospace;
+}
+.notch{
+    height: 300px;
+    width: 500px;
+}
