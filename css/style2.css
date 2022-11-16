@@ -94,10 +94,20 @@ body{
 
 .Parrafo1{
     display: flex;
-    font-size: 20px;
-    font-family: 'Azeret Mono', monospace;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 .notch{
-    height: 300px;
-    width: 500px;
+    height: 310px;
+    width: 300px;
+    float: right;
+    border: 3px solid black;
+    display: flex;
 }
+
+.MCinfo{
+    padding-right: 30px;
+}
+
