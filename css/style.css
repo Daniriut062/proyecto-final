@@ -6,13 +6,24 @@
     box-sizing: border-box;
 
 }
-.navbar{
+.nav{
+    position:fixed;
     font-family: 'Press Start 2P', cursive;
     background: #918d8d;
     height: 80px;
     color: white;
     width: 100%;
 }
+.nav.active{
+    background: #918d8d;
+    padding: 15px;
+}
+
+.nav.active .logo,
+.nav.active .menu ul li a{
+    color: white;
+}
+
 label.logo{
     font-size: 35px ;
     line-height: 80px;
@@ -94,4 +105,8 @@ nav ul li a{
     }
    
    
+}
+
+.scroll{
+    height: 100px;
 }

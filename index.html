@@ -22,91 +22,112 @@
 
 <body>
     <div>
-        <nav class="navbar">
+        <header>
+            <nav class="nav">
+    
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <label class="logo">Minecraft</label>
+                <ul>
+                    <li><a class="lista1" href="#">Inicio</a></li>
+                    <li><a href="#">Mobs</a></li>
+                    <li><a href="#">Items</a></li>
+                    <li><a href="#">Creaciones</a></li>
+                </ul>
+            </nav>
 
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <label class="logo">Minecraft</label>
-            <ul>
-                <li><a class="lista1" href="#">Inicio</a></li>
-                <li><a href="#">Mobs</a></li>
-                <li><a href="#">Items</a></li>
-                <li><a href="#">Creaciones</a></li>
-            </ul>
-        </nav>
+        </header>
+        <div class="scroll">
 
+        </div>
+        <div class="carrusel1">
+        
+            <div>
+                <img class="block" src="/imagenes/GrassBlock_HighRes.webp" alt="creeper">
+            </div>
+        
+            <div id="contentItemsCarrusel">
+        
+                <div class="itemCarrusel" id="itemCarrusel-1">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        <img class="imagenCarru" src="/imagenes/minecraft.jpg" alt="Minecraft">
+                    </div>
+        
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-3">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+        
+                        <a href="#itemCarrusel-2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+        
+                    </div>
+                </div>
+        
+                <div class="itemCarrusel" id="itemCarrusel-2">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        <img class="imagenCarru" src="/imagenes/parentsultimateguide-minecraft-blog.jpeg" alt="Minecraft2">
+                    </div>
+        
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-1">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+        
+                        <a href="#itemCarrusel-3">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+        
+                </div>
+        
+                <div class="itemCarrusel" id="itemCarrusel-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        C
+                    </div>
+        
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-2">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+        
+                        <a href="#itemCarrusel-1">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+            <div>
+                <img class="block" src="/imagenes/Steve_(Minecraft).png" alt="Steve">
+            </div>
+        
+        </div> 
+        
     </div>
 
+   <!--<div class="contenedor">
 
-
-    <div class="carrusel1">
-
-        <div>
-            <img class="block" src="/imagenes/GrassBlock_HighRes.webp" alt="creeper">
+        <div class="atras botones">
+            &#60 
         </div>
 
-        <div id="contentItemsCarrusel">
-
-            <div class="itemCarrusel" id="itemCarrusel-1">
-                <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
-                    <img class="imagenCarru" src="/imagenes/minecraft.jpg" alt="Minecraft">
-                </div>
-
-                <div class="flechasCarrusel">
-                    <a href="#itemCarrusel-3">
-                        <i class="fa-solid fa-chevron-left"></i>
-                    </a>
-
-                    <a href="#itemCarrusel-2">
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </a>
-
-                </div>
-            </div>
-
-            <div class="itemCarrusel" id="itemCarrusel-2">
-                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
-                    <img class="imagenCarru" src="/imagenes/parentsultimateguide-minecraft-blog.jpeg" alt="Minecraft2">
-                </div>
-
-                <div class="flechasCarrusel">
-                    <a href="#itemCarrusel-1">
-                        <i class="fa-solid fa-chevron-left"></i>
-                    </a>
-
-                    <a href="#itemCarrusel-3">
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="itemCarrusel" id="itemCarrusel-3">
-                <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
-                    C
-                </div>
-
-                <div class="flechasCarrusel">
-                    <a href="#itemCarrusel-2">
-                        <i class="fa-solid fa-chevron-left"></i>
-                    </a>
-
-                    <a href="#itemCarrusel-1">
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </a>
-                </div>
-
-            </div>
-
+        <div class="adelante botones">
+            &#62
         </div>
 
-        <div>
-            <img class="block" src="/imagenes/Steve_(Minecraft).png" alt="Steve">
-        </div>
+        <img  class="img1" src="/imagenes/minecraft.jpg" alt="minecraft">
 
-    </div>
+    </div>-->
+
+    
+    
+    
 
     <div>
         <H1 class="titulo">Minecraft</H1>
@@ -156,6 +177,7 @@
     </div>
 
 
+    <script src="/menu.js"></script>
 
 
 </body>
